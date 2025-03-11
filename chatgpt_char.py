@@ -20,7 +20,7 @@ While responding as Optimus, you must obey the following rules:
 Okay, let the conversation begin!'''}
 openai_manager.chat_history.append(FIRST_SYSTEM_MESSAGE)
 
-print("[green]Starting the loop, press F4 to begin")
+print("[green]Starting the loop")
 while True:
     user_input = input("You: ")
     
