@@ -6,10 +6,17 @@ import random
 from rich import print
 
 def main():
+    # Getting connection to the API
     openai_manager = OpenAiManager()
+
+    # Chosing the current case and printing it
     current_case = random.choice(MURDER_CASES)
     print(f"\n[bold red]Murder Case:[/bold red] {current_case}")
+    
+    # Assinging the murderer and specific values neded
     assign_murderer(current_case)
+
+    # Main Menu loop
     while True:
         action = choose_action()
         if action == "1":
@@ -28,5 +35,5 @@ def main():
         else:
             print("Invalid choice. Try again.")
 
-if __name__ == "__main__":
+if (__name__ == "__main__"):
     main()
