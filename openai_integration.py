@@ -1,6 +1,7 @@
 from openai import OpenAI
 import tiktoken
 from rich import print
+from config import OPEN_API_KEY
 
 def num_tokens_from_messages(messages, model='gpt-4o'):
   try:
@@ -25,7 +26,7 @@ class OpenAiManager:
         # Storing the chat log
         self.chat_history = [] 
         try:
-            self.client = OpenAI(api_key='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')
+            self.client = OpenAI(api_key=OPEN_API_KEY)
         except TypeError:
             exit("Ooops! You forgot to set OPENAI_API_KEY in your environment!")
 
