@@ -24,10 +24,18 @@ PERSONALITY_POOL = [
 
 # The possible characters and their descriptions
 POSSIBLE_IDENTITIES = [
-    ("Blanchard", "a stoic officer who is the head of security at this location"),
-    ("Dee", "the smart sibling of Dum, he's a bit of a know-it-all"),
-    ("Dum", "the slow sibling of Dee, he's not very bright but is loyal"),
-    ("Charlie Muggs", "a suspicious fella, possible a goon for the local mob")
+    ("Blanchard", "a stoic officer who is the head of security at this location, from time to time likes to mention his favourite egghead Dr Pelletier who's not just book smart but street smart too."),
+    ("Dee", "the smart sibling of the slow Dum, he's a bit of a know-it-all"),
+    ("Dum", "the slow sibling of the smart Dee, he's not very bright but is loyal"),
+    ("Charlie Muggs", "a suspicious fella, a goon for the local mob"),
+    ("Damien Christmas", "a shrink to the stars, he has a lot of connections"),
+    ("Claude Harris", "a politician with a lot of enemies, boud to a wheelchair due to a war wound"),
+    ("Annabelle Nguyen", "a sharp and professional insurance broker."),
+    ("Julia North", "a shy girl who is a bit of a loner, likes to end her sentences with 'Julia North'."),
+    ("Herman Schmidt", "a bookkeeper to the mob, he's rigid and stuffy with a staccato german accent."),
+    ("Velvet Jones", "a con artist, as beautiful as Venus and as silver-tongued as Satan himself."),
+    ("Jimmy Chu", "the largest, dumb muscle of the mob."),
+    ("Izzy Washington", "one of the best getaway drivers in the business, british in origin she made her name diving a car like a bat out of hell.")
 ]
 
 # Creting the character profiles and checking for inconsistencies

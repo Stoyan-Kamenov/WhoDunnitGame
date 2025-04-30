@@ -5,11 +5,11 @@ random.shuffle(POSSIBLE_IDENTITIES)
 
 # The possible murder cases
 MURDER_CASES = [
-    "A body was found in the control room, and it's up to you to find out who among you is responsible.",
-    "Last night, the energon supplies were sabotaged, leaving one Autobot dead.",
-    "A high-ranking officer has been found offline in suspicious circumstances.",
-    "An explosion rocked the Decepticon base, and evidence points to an inside job.",
-    "A critical artifact has gone missing, and a traitor walks among you."
+    "Early in the morning Geraldine Thomas was discovered deceased in her LA residence, her face had taken a beating but the cause of death was strangulation.",
+    "Last night at the horseshoe pier, a dame named Sally Foot was found dead with several pistol rounds in her back.",
+    "On Halloween a movie star by the name of Glock Steward was found dead, half submerged in the tar pits, the only wound he had was a stab wound in his chest.",
+    "Late last night the star pitcher for the LA Angels, Red Osbourne was found dead in a dope shop, his head was smashed barely even recognizable.",
+    "Tom Dillenger a politician top runner for the next mayoral race, was discovered by some kids behind the LA sign, though his head was no longer attached to his body."
 ]
 
 # The clue traits given out
